@@ -74,6 +74,10 @@ header .search .btn {
   padding: 25px;
 }
 
+.body .intro {
+  margin-bottom: 50px;
+}
+
 .body .intro .col {
   width: 50%;
   padding: 0 20px;

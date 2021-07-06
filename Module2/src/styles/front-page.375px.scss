@@ -16,3 +16,26 @@ header {
         }
     }
 } 
+
+.body {
+    .intro {
+        margin-bottom: 20px;
+    }
+
+    .albums-container {
+        .albums {            
+            &.flex-container {
+                margin-right: -5px;
+                margin-left: -5px;
+            }
+
+            .album {
+                padding: 0 5px;
+            }
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+    }
+}
