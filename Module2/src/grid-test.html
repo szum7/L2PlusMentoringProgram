@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <title>Module 2 - Kezes Jakab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .site {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px auto auto;
+            grid-template-areas: 
+                "logo search" 
+                "picture text" 
+                "albums albums";
+        }
+
+        .logo-cell,
+        .search-cell,
+        .picture-cell,
+        .text-cell,
+        .albums-cell {
+            border: 1px dashed #ddd;
+            min-height: 50px;
+        }
+
+        .logo-cell {
+            grid-area: logo;
+        }
+
+        .search-cell {
+            grid-area: search;
+        }
+
+        .picture-cell {
+            grid-area: picture;
+        }
+
+        .text-cell {
+            grid-area: text;
+        }
+
+        .albums-cell {
+            grid-area: albums;
+        }
+
+    </style>
+    <body>
+        <div class="site">
+            <div class="logo-cell"></div>
+            <div class="search-cell"></div>
+            <div class="picture-cell"></div>
+            <div class="text-cell"></div>
+            <div class="albums-cell"></div>
+        </div>
+    </body>
+</html>
